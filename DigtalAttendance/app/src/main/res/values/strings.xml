@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Digital Attendance</string>
+    <string name="login">Login</string>
+    <string name="userId">UserID</string>
+    <string name="password">Password</string>
+    <string name="logo">logo</string>
+    <string name="digitalAttendance">Digital Attendance</string>
+    <string name="StudentID">Student ID</string>
+    <string name="StudentName">Student Name</string>
+    <string name="RollNo">Roll No.</string>
+    <string name="Class">Class</string>
+    <string name="Division">Division</string>
+    <string name="SetPassword">Set Password</string>
+    <string name="Add">ADD</string>
+    <string name="Id">ID</string>
+    <string name="ModifyRECORD">Update Information</string>
+    <string name="Search">Search</string>
+    <string name="AddTEACHER">Add Teacher</string>
+    <string name="TeacherID">Teacher ID</string>
+    <string name="TeacherName">Teacher Name</string>
+    <string name="Subject">Subject</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="OldPassword">Old Password</string>
+    <string name="NewPassword">New Password</string>
+    <string name="Confirm">Confirm New Password</string>
+    <string name="Submit">SUBMIT</string>
+    <string name="Modify">Update</string>
+    <string name="AttendanceREPORT">Attendance Report</string>
+    <string name="StudentDetails">Student Details</string>
+    <string name="ViewStudentDetail">View Student Details</string>
+    <string name="home">Home</string>
+    <string name="attendance">Attendance</string>
+    <string name="addStudent">Add Student</string>
+    <string name="RemoveStudent">Remove Student</string>
+    <string name="RemoveTeacher">Remove Teacher</string>
+    <string name="Remove">Remove</string>
+    <string name="rmRecord">Remove Student</string>
+    <string name="updateStudentInfo">Update Student</string>
+    <string name="updateTeacher">Update Teacher</string>
+    <string name="attendanceReport">Attendance Report</string>
+
+    <string-array name="Subject">
+        <item>Select a Subject</item>
+        <item>SQA</item>
+        <item>SIC</item>
+        <item>ITSM</item>
+        <item>GIS</item>
+        <item>BI</item>
+        <item>AMP</item>
+    </string-array>
+
+    <string-array name="StudentClass">
+        <item>FYIT</item>
+        <item>SYIT</item>
+        <item>TYIT</item>
+    </string-array>
+</resources>

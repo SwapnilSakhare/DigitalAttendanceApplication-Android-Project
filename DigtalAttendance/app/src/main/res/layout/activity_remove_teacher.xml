@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".remove_teacher"
+    android:orientation="vertical"
+    android:background="@drawable/back3">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:elevation="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/RemoveTeacher"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher ID"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/rmTeachId"
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="45dp"
+                android:padding="10dp"
+                android:background="@drawable/round_editbox"
+                android:hint=" ID"
+                android:singleLine="true"
+                android:textColor="@color/colorsPrimary"
+                android:textColorHint="@color/whiteSmoke" />
+        <Button
+            android:id="@+id/searchStudbtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:text="@string/Search"
+
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp" />
+        </LinearLayout>
+        <GridLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:columnCount="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Teach_id"
+                android:text="TeacherID: "
+                android:textColor="@color/colorsPrimary"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/printTeach_id"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Teacher Id"
+                android:textColor="@color/colorsPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Teach_name"
+                android:layout_marginTop="10dp"
+                android:text="Teacher Name: "
+                android:textColor="@color/colorsPrimary"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/printTeach_name"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="10dp"
+                android:hint="Teacher Name"
+                android:textColor="@color/colorsPrimary"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/Teach_Subject"
+                android:layout_marginTop="10dp"
+                android:text="Subject: "
+                android:textColor="@color/colorsPrimary"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/printTeach_Subject"
+                android:layout_width="134dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="subject"
+                android:textColor="@color/colorsPrimary"
+                android:textSize="18sp" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/RemoveTeachbtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:text="Delete"
+
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp" />
+
+    </LinearLayout>
+</LinearLayout>

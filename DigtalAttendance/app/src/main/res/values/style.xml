@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PartyTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorsPrimary</item>
+        <item name="colorPrimaryDark">@color/colorsPrimaryDark</item>
+        <item name="colorAccent">@color/colorsAccent</item>
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+</resources>

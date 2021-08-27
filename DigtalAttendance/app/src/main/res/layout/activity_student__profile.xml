@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    android:orientation="vertical"
+    tools:context=".Student_ProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="20dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/White"
+            android:padding="5px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/teacher_profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/comman_profile_icon" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <GridLayout
+        android:layout_width="364dp"
+        android:layout_height="295dp"
+        android:layout_marginLeft="20dp"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@+id/Stud_id"
+            android:text="Student ID: "
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/prinStud_id"
+            android:layout_width="133dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Student Id"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Stud_name"
+            android:layout_marginTop="10dp"
+            android:text="Student Name: "
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/prinStud_name"
+            android:layout_width="157dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Student Name"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Stud_rolno"
+            android:layout_marginTop="10dp"
+            android:text="Roll No: "
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/prinRollno"
+            android:layout_width="128dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Roll No"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Stud_class"
+            android:layout_marginTop="10dp"
+            android:text="Class: "
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/prinStud_Class"
+            android:layout_width="145dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Class"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp" />
+    </GridLayout>
+</LinearLayout>

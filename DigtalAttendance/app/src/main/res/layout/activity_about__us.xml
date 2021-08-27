@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_Us"
+    android:orientation="vertical"
+    android:background="@drawable/backgnd">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:elevation="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:text="   Digital Attendance Application is designed to manage the Attendance in a proper manner.Teachers faces So much trouble while managing the attendance in Attendance Muster. To provide the efficient and eco-friendly way to manage the student catalogue this project is developed."
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorsPrimary"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text=" Contact Info: \n\t +91 8652067112 \n  kumarshinge19@gmail.com\n  swapnilsakhare27.ss@gmail.com"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorsPrimary"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:text="\n\n\n\n\n\n\nks"
+            android:textAlignment="center"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

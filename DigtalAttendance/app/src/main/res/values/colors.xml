@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorsPrimary">#050707</color>
+    <color name="colorsPrimaryDark">#00574B</color>
+    <color name="colorsAccent">#D81B60</color>
+    <color name="colorAcc">#e6e6fa</color>
+    <color name="colorSnow">#F7F6F6</color>
+    <color name="colorClover">#00ff6f</color>
+    <color name="colorBubbles">#e7feff</color>
+    <color name="whiteSmoke">#989898</color>
+    <color name="blue">#3451AB</color>
+    <color name="White">#FFFFFF</color>
+</resources>

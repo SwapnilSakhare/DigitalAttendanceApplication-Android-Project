@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/back3"
+tools:context=".Add_StudentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_stud_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:elevation="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/addStudent"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </android.support.v7.widget.Toolbar>
+
+<ScrollView
+    android:id="@+id/scrollView"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/add_stud_toolbar"
+    android:layout_marginBottom="20dp">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/studid"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="248dp"
+            android:text="@string/StudentID"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editid"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/round_editbox"
+            android:hint="   ID"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorsPrimary"
+            android:textColorHint="@color/whiteSmoke"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/studnam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/StudentName"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editstudname"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/round_editbox"
+            android:hint="   Name"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorsPrimary"
+            android:textColorHint="@color/whiteSmoke" />
+
+        <TextView
+            android:id="@+id/studrol"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="246dp"
+            android:text="@string/RollNo"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editstudrol"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/round_editbox"
+            android:hint="   Roll No"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorsPrimary"
+            android:textColorHint="@color/whiteSmoke" />
+
+
+        <TextView
+            android:id="@+id/studclas"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="248dp"
+            android:text="@string/Class"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/editclass"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="45dp"
+            android:entries="@array/StudentClass"
+            android:hint="   Class"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorsPrimary"
+            android:textColorHint="@color/whiteSmoke" />
+
+        <TextView
+            android:id="@+id/addpass"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="45dp"
+            android:text="@string/SetPassword"
+            android:textColor="@color/colorsPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editpass"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/round_editbox"
+            android:hint="  Password"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorsPrimary"
+            android:textColorHint="@color/whiteSmoke" />
+
+        <Button
+            android:id="@+id/Add_S"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_btn"
+            android:text="@string/Add"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
